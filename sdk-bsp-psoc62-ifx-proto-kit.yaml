@@ -1,0 +1,86 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: KitProg3
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/board.png
+  name: PSOC62-IFX-PROTO-KIT
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/board (2).png
+  vendor: infineon
+  version: 0.0.1
+chip:
+  chip_name: CY8C624ABZI
+  clock_source: HSE
+  device_vendor: 'infineon '
+  family_name: PSoC6
+  rx_name: PA10
+  series_name: PSoc62
+  source_freq: '8000000'
+  sub_series_name: PSoc624
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/Infineon-CY8CPROTO-062-4343W_PSoC_6_Wi-Fi_BT_Prototyping_Kit_Guide-UserManual-v01_00-EN.pdf
+  title: Infineon-CY8CPROTO-062-4343W_PSoC_6_Wi-Fi_BT_Prototyping_Kit_Guide-EN
+- category: manual
+  file: documents/Infineon-CY8CPROTO-062-4343W_PSoC_6_Wi-Fi_BT_Prototyping_Kit_Quick_Start_Guide-UserManual-v01_00-EN.pdf
+  title: Infineon-CY8CPROTO-062-4343W_PSoC_6_Wi-Fi_BT_Prototyping_Kit_Quick_Start_Guide-EN
+example_projects: []
+features:
+- a low-cost hardware platform that enables design and debug of PSoC6 MCUs.
+- industry-leading CAPSENSE™ for touch buttons and slider
+- on-board debugger/programmer with KitProg3
+- The PSoC6 Wi-Fi BT Prototyping Kit
+features_zh:
+- 一个低成本的硬件平台，支持 PSoC6 MCU 的设计和调试。
+- 行业领先的 CAPSENSE™，用于触摸按钮和滑块
+- 带有 KitProg3 的板载调试器/编程器
+- PSoC6 Wi-Fi BT 原型开发套件
+pkg_type: Board_Support_Packages
+pkg_vendor: 英飞凌
+pkg_version: 0.1.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - LICENSE
+    - makefile.targets
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: psoc62-cy8ckit
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
