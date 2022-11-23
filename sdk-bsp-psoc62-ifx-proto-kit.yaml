@@ -47,7 +47,7 @@ features_zh:
 - PSoC6 Wi-Fi BT 原型开发套件
 pkg_type: Board_Support_Packages
 pkg_vendor: 英飞凌
-pkg_version: 0.1.0
+pkg_version: 1.0.0
 template_projects:
 - builtin_files:
   - files_and_folders:
